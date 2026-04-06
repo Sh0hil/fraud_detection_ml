@@ -35,8 +35,8 @@ DataSet : (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-datas
 git clone [https://github.com/Sh0hil/fraud_detection_ml.git](https://github.com/Sh0hil/fraud_detection_ml.git)
 cd fraud_detection_ml
 
-2. Set up a virtual environment (Recommended)
-Bash
+### 2. Set up a virtual environment (Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
