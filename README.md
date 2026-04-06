@@ -29,7 +29,7 @@ Understanding the underlying patterns in the transaction data was crucial for bu
 * **Insight:** This graph breaks down the frequency of different transaction types in the dataset (e.g., Payment, Transfer, Cash Out, Cash In, Debit). It helps establish a baseline for normal user behavior.
 
 ### 2. Fraud in Transfers & Cash Outs
-![Distribution in Transfer and Cashout](assets/distribution_in_transfer_cashout.png)
+![Distribution in Transfer and Cashout](assets/distribution_in_transfer&cashout.png)
 * **Insight:** By isolating specific transaction types, we discovered that fraudulent activities are almost exclusively concentrated within "Transfer" and "Cash Out" transactions. This was a critical feature for the model to learn.
 
 ### 3. Feature Correlation
