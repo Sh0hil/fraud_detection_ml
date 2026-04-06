@@ -18,7 +18,7 @@ Financial fraud is a critical issue, and this project leverages Machine Learning
 * `app.py`: The Python application script (e.g., Streamlit or Flask) that serves the trained model and provides a user interface for making predictions.
 * `.gitignore`: Configured to exclude large datasets (`.csv`) and heavy model weight files (`.pkl`, `.h5`) from version control due to GitHub storage limits.
 
-DataBase : (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
+DataSet : (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
 
 ## 🛠️ Technologies Used
 
