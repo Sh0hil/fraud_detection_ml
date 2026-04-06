@@ -37,11 +37,11 @@ Understanding the underlying patterns in the transaction data was crucial for bu
 * **Insight:** The correlation heatmap reveals how different numerical features relate to each other and to the target variable (`isFraud`). This helped in selecting the most impactful features and removing redundant data before training.
 
 ### Web App Interface
-*(Note: Replace img1.png and img2.png below with brief descriptions of what those screenshots actually show, like "Prediction Screen" or "Input Form")*
 
-![App Screenshot 1](assets/img1.png)
+
+![App Screenshot 1](assets/img2.png)
 &
-![App Screenshot 2](assets/img2.png)
+![App Screenshot 2](assets/img1.png)
 
 ## 🛠️ Technologies Used
 
