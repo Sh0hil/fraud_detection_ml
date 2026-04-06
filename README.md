@@ -30,13 +30,15 @@ DataSet : (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-datas
 
 ## 🚀 How to Run Locally
 
-### 1. Clone the repository
+
 ```bash
+1.  Clone the repository
 git clone [https://github.com/Sh0hil/fraud_detection_ml.git](https://github.com/Sh0hil/fraud_detection_ml.git)
 cd fraud_detection_ml
 
-### 2. Set up a virtual environment (Recommended)
-```bash
+
+2. Set up a virtual environment (Recommended)
+Bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
