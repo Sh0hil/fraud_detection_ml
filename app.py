@@ -11,7 +11,7 @@ st.markdown(" Please enter the details of the transaction & Click on the Predict
 
 st.divider()
 
-transaction_type = st.selectbox("Transaction Type", ["Payment", "Transfer", "Cash Out", "Debit", "Cash In"])
+transaction_type = st.selectbox("Transaction Type", ["Payment", "Transfer", "Cash_Out", "Debit", "Cash_In"])
 amount = st.number_input("Amount", min_value=0.0, value = 1000.0)
 oldbalanceOrg = st.number_input("Old Balance Origin i.e. Sender's Old Balance", min_value = 0.0, value = 10000.0)
 newbalanceOrig = st.number_input("New Balance Origin i.e. Sender's New Balance", min_value = 0.0, value = 9000.0)
