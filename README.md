@@ -20,16 +20,41 @@ Financial fraud is a critical issue, and this project leverages Machine Learning
 
 DataSet : (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
 
+## 📊 Exploratory Data Analysis (EDA)
+
+Understanding the underlying patterns in the transaction data was crucial for building an effective model. Below are key insights discovered during the EDA phase.
+
+### 1. Transaction Type Distribution
+![Transaction Type Distribution](assets/transaction_type_distribution.png)
+* **Insight:** This graph breaks down the frequency of different transaction types in the dataset (e.g., Payment, Transfer, Cash Out, Cash In, Debit). It helps establish a baseline for normal user behavior.
+
+### 2. Fraud in Transfers & Cash Outs
+![Distribution in Transfer and Cashout](assets/distribution_in_transfer_cashout.png)
+* **Insight:** By isolating specific transaction types, we discovered that fraudulent activities are almost exclusively concentrated within "Transfer" and "Cash Out" transactions. This was a critical feature for the model to learn.
+
+### 3. Feature Correlation
+![Correlation Matrix](assets/correlation_matrix.png)
+* **Insight:** The correlation heatmap reveals how different numerical features relate to each other and to the target variable (`isFraud`). This helped in selecting the most impactful features and removing redundant data before training.
+
+### Web App Interface
+*(Note: Replace img1.png and img2.png below with brief descriptions of what those screenshots actually show, like "Prediction Screen" or "Input Form")*
+
+![App Screenshot 1](assets/img1.png)
+![App Screenshot 2](assets/img2.png)
+
 ## 🛠️ Technologies Used
 
 * **Language:** Python 3.x
 * **Data Analysis & Manipulation:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn 
 * **Visualization:** Matplotlib, Seaborn
-* **Web Framework:** Streamlit 
+* **Web Framework:** Streamlit
+
+
+
+
 
 ## 🚀 How to Run Locally
-
 
 ```bash
 1.  Clone the repository
