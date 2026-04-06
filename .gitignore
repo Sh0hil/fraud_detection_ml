@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore large datasets and models
+dataset.csv
+model_weights.pkl
+*.h5
+
 # Distribution / packaging
 .Python
 build/
