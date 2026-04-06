@@ -40,6 +40,7 @@ Understanding the underlying patterns in the transaction data was crucial for bu
 *(Note: Replace img1.png and img2.png below with brief descriptions of what those screenshots actually show, like "Prediction Screen" or "Input Form")*
 
 ![App Screenshot 1](assets/img1.png)
+&
 ![App Screenshot 2](assets/img2.png)
 
 ## 🛠️ Technologies Used
@@ -80,9 +81,7 @@ If using Streamlit:
 
 Bash
 streamlit run app.py
-<img width="959" height="473" alt="image" src="https://github.com/user-attachments/assets/b7547e01-44fc-44ab-b15a-e54433100c62" />
-<img width="959" height="471" alt="image" src="https://github.com/user-attachments/assets/bd0d6075-d9bb-47e9-bcd4-291f34d8ce5f" />
-<img width="959" height="485" alt="image" src="https://github.com/user-attachments/assets/97bd3430-caf6-4786-adf7-5a2f2f9f3270" />
+
 
 
 
