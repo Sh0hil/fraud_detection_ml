@@ -24,9 +24,9 @@ DataSet : (https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-datas
 
 * **Language:** Python 3.x
 * **Data Analysis & Manipulation:** Pandas, NumPy
-* **Machine Learning:** Scikit-Learn / XGBoost *(Update based on your specific model)*
+* **Machine Learning:** Scikit-Learn 
 * **Visualization:** Matplotlib, Seaborn
-* **Web Framework:** Streamlit / Flask *(Update based on what you used in app.py)*
+* **Web Framework:** Streamlit 
 
 ## 🚀 How to Run Locally
 
