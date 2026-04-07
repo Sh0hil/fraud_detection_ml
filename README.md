@@ -12,7 +12,7 @@ Financial fraud is a critical issue, and this project leverages Machine Learning
 1. **Data Analysis & Modeling:** Exploring the data, handling imbalances, and training the predictive model.
 2. **Application Deployment:** Providing an interactive interface to test the model with new data.
 
-## 📂 Repository Structure
+## 📂 Repository Structure 
 
 * `analysis.ipynb`: The Jupyter Notebook containing Exploratory Data Analysis (EDA), data preprocessing, feature engineering, and the training/evaluation of the Machine Learning model.
 * `app.py`: The Python application script (e.g., Streamlit or Flask) that serves the trained model and provides a user interface for making predictions.
